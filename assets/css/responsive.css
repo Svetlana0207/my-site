@@ -41,6 +41,10 @@
         background-color: #fff;
     }
 
+    #home{
+        background-image: url(assets/images/me-001.jpg)
+    }
+
     .home nav.navbar ul.nav > li {
         padding: 10px;
         text-align: center;
@@ -89,6 +93,9 @@
 
 @media(max-width:500px)
 {
+    #home{
+        background-image: url(assets/images/me-001.jpg)
+    }
 
     .sec_title h2 {
         font-size: 35px;
@@ -111,6 +118,10 @@
     /*-- about --*/
     .about .my__img {
         margin-bottom: 30px
+    }
+
+    #home{
+        background-image: url(assets/images/me-001.jpg)
     }
 
     .about .padding-left-35 {
