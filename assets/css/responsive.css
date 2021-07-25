@@ -33,7 +33,7 @@
         border: none;
     }
     #home{
-        background-image: url(../images/me-001.jpg)
+        background-image: url(../images/me-002.jpg)
     }
 
     .navbar-default .navbar-collapse, 
@@ -98,7 +98,7 @@
 @media(max-width:500px)
 {
     #home{
-        background-image: url(../images/me-001.jpg)
+        background-image: url(../images/me-002.jpg)
     }
     .list-unstyled ul{
         display: flex;
