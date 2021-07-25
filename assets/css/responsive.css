@@ -5,7 +5,10 @@
 
 @media(max-width:767px)
 {
-
+   .list-unstyled ul{
+        display: flex;
+        flex-wrap: wrap;
+   }
     /*-- home --*/
     .navbar-default {
         padding-top: 10px;
@@ -41,9 +44,7 @@
         background-color: #fff;
     }
 
-    #home{
-        background-image: url(assets/images/me-001.jpg)
-    }
+   
 
     .home nav.navbar ul.nav > li {
         padding: 10px;
@@ -93,10 +94,11 @@
 
 @media(max-width:500px)
 {
-    #home{
-        background-image: url(assets/images/me-001.jpg)
-    }
-
+   
+    .list-unstyled ul{
+        display: flex;
+        flex-wrap: wrap;
+   }
     .sec_title h2 {
         font-size: 35px;
     }
@@ -114,15 +116,16 @@
 
 @media(min-width:768px) and (max-width:991px)
 {
-
+    .list-unstyled ul{
+        display: flex;
+        flex-wrap: wrap;
+   }
     /*-- about --*/
     .about .my__img {
         margin-bottom: 30px
     }
 
-    #home{
-        background-image: url(assets/images/me-001.jpg)
-    }
+  
 
     .about .padding-left-35 {
         padding-left: 15px;
