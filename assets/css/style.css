@@ -878,6 +878,10 @@ h1, h2, h3, h4,
     line-height: 40px;
 }
 
+#home{
+    background-image: url(../images/me-1.jpg);
+}
+
 .portfolio .ul-filter {
     display: flex;
     justify-content: center;

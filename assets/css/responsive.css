@@ -32,6 +32,9 @@
         margin-top: 18px;
         border: none;
     }
+    #home{
+        background-image: url(../images/me-001.jpg)
+    }
 
     .navbar-default .navbar-collapse, 
     .navbar-default .navbar-form {
@@ -94,7 +97,9 @@
 
 @media(max-width:500px)
 {
-   
+    #home{
+        background-image: url(../images/me-001.jpg)
+    }
     .list-unstyled ul{
         display: flex;
         flex-wrap: wrap;
@@ -116,6 +121,7 @@
 
 @media(min-width:768px) and (max-width:991px)
 {
+   
     .list-unstyled ul{
         display: flex;
         flex-wrap: wrap;
@@ -150,7 +156,7 @@
 
 @media(min-width:992px) and (max-width:1199px)
 {
-
+    
 }
 
 
@@ -160,6 +166,7 @@
 
 @media(min-width:1200px)
 {
+   
 
     .about h3 {
         margin-top: 30px;
